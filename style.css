@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+  }
+  body {
+    text-align: center;
+    margin: 0;
+    color: white;
+    min-height: 200vh;
+    overflow-x: hidden;
+  }
+
+  .box {
+    border: 6px solid white;
+    transition: 0.25s ease;
+    background: black;
+    padding: 10px; 
+  }
+
+  .question-click {
+    background: rgb(75, 64, 64);
+    border-radius: 30px;
+    border: 6px dashed pink;
+  }
+
+  p  {
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(-200px);
+  }
+
+  .show-response {
+    visibility: visible;
+    opacity: 1;
+    transition: 1.5sec;
+    transform: translateX(0);
+  }
+
+  .mousemove {
+ height: 50px;
+ width: 50px;
+ border: 2px solid pink;
+ position: absolute;
+ border-radius: 50px;
+  }
