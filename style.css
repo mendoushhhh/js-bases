@@ -43,4 +43,23 @@
  border: 2px solid pink;
  position: absolute;
  border-radius: 50px;
+ left: 50%;
+ top: 50%;
+ z-index: -1;
+ /* pour que la souris passe tjrs derrière */
+  }
+
+  nav {
+    background: pink;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: -50px;
+    transition: 0.4s;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
   }
